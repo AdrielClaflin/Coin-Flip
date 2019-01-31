@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|ZCOOL+QingKe+HuangYou');
+h1 {
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	color: #1a1423;
+}
+h2 {
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	color: #3D314A;
+}
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+div{
+	margin: 10px;
+}
