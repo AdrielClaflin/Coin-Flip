@@ -25,6 +25,12 @@ div{
 	border: solid 3px;
 	border-color: #05A8AA;
 }
+.center{
+	text-align: center;
+}
+.profile-images{
+	border-radius: 50%;
+}
 .bioText {
 	width: 80%;
 	height: 15%;
