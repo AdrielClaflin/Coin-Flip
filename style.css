@@ -14,7 +14,63 @@ div{
 	margin: 20px;
 }
 .bio-images {
-	float: left; 
-	margin-right: 10px; 
-	padding: 2px;
+	/*float: left; 
+	/*margin-right: 10px; 
+	padding: 2px; */
+	width:20%;
+	height: 20%;
 }
+.bioText {
+	float: right;
+	/*float: top; */
+	background-color: green;
+	width: 75%;
+	/*margin: auto;*/
+}
+.bio-block{
+	margin: auto;
+	background-color: silver;
+}
+/*Navigation Bar Styles*/
+.topnav{
+	background-color: #1a1423;
+ 	overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #E1E5EE;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #05A8AA;
+  color: white;
+}
+/*End Navigation Bar Styles*/
+
+/*Styling for Adriel's Bio Page*/
+#adrielBioText {
+	margin: auto;
+  	width: 70%;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 3% 5% 5% 5%;
+}
+
+#adrielBody {
+  background-color:#cb8e52;
+  background-image: url('images/brunch_with_snab.png');
+  background-size: 100%;
+  background-repeat: no-repeat; 
+}
+
+#artistStatement {
+	font-style: italic;
+}
+/*End Styling for Adriel's Bio Page*/
