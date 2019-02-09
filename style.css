@@ -2,6 +2,8 @@
 h1 {
 	font-family: 'ZCOOL QingKe HuangYou', cursive;
 	color: #1a1423;
+	text-align: center;
+	font-size: 3em;
 }
 h2 {
 	font-family: 'ZCOOL QingKe HuangYou', cursive;
@@ -14,23 +16,27 @@ div{
 	margin: 20px;
 }
 .bio-images {
-	/*float: left; 
-	/*margin-right: 10px; 
-	padding: 2px; */
-	width:20%;
-	height: 20%;
+	width:15%;
+	height: 15%;
+	margin: auto;
+	display: inline-block;
+	vertical-align:top;
+	border-radius: 100%;
+	border: solid 3px;
+	border-color: #05A8AA;
 }
 .bioText {
-	float: right;
-	/*float: top; */
-	background-color: green;
-	width: 75%;
-	/*margin: auto;*/
+	width: 80%;
+	height: 15%;
+	display: inline-block;
+	vertical-align:top;
 }
 .bio-block{
 	margin: auto;
-	background-color: silver;
+	margin-bottom: 20px;
+	width:80%;
 }
+
 /*Navigation Bar Styles*/
 .topnav{
 	background-color: #1a1423;
