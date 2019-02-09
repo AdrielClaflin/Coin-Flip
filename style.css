@@ -20,6 +20,12 @@ div{
 	width:20%;
 	height: 20%;
 }
+.center{
+	text-align: center;
+}
+.profile-images{
+	border-radius: 50%;
+}
 .bioText {
 	float: right;
 	/*float: top; */
