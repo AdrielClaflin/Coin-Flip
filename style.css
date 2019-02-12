@@ -15,38 +15,73 @@ p {
 div{
 	margin: 20px;
 }
-.bio-images {
-	width:15%;
-	height: 15%;
-	margin: auto;
-	display: inline-block;
-	vertical-align:top;
-	border-radius: 100%;
-	border: solid 3px;
-	border-color: #05A8AA;
-}
 .center{
 	text-align: center;
 }
 .profile-images{
 	border-radius: 50%;
 }
+
+/*Bio*/
+.bio-block{
+	margin: auto;
+	margin-bottom: 20px;
+	width: 80%;
+}
+.bio-images {
+	width:15%;
+	height: 15%;
+	margin: auto;
+	margin-bottom: 20px;
+	display: inline-block;
+	vertical-align:top;
+	border-radius: 100%;
+	border: solid 3px;
+	border-color: #05A8AA;
+	z-index: 5;
+}
 .bioText {
 	width: 80%;
 	height: 15%;
 	display: inline-block;
-	vertical-align:top;
 }
-.bio-block{
-	margin: auto;
-	margin-bottom: 20px;
-	width:80%;
+#bT_front {
+  	display: block;
+  	z-index: 5;
+  	position: relative;
 }
+#bT_behind {
+  	position: absolute;
+  	vertical-align:top;
+	width: 110%;
+	height: 110%;
+	z-index: 3;
+	top: -25px;
+	left: -30px;
+}
+/*End Bio*/
+
+/*Bio Animation*/
+.shape {
+	stroke-dasharray: 0 700;
+	stroke-dashoffset: 44;
+	stroke-width: 0px;
+	fill: transparent;
+	stroke: #05A8AA;
+	border-bottom: 5px solid black;
+	transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.svg-wrapper:hover .shape {
+	stroke-width: 5px;
+	stroke-dashoffset: 200;
+	stroke-dasharray: 700;
+}
+/*End Bio Animation*/
 
 /*Navigation Bar Styles*/
 .topnav{
 	background-color: #1a1423;
- 	overflow: hidden;
+	overflow: hidden;
 }
 .topnav a {
   float: left;
