@@ -44,6 +44,7 @@ div{
 	width: 80%;
 	height: 15%;
 	display: inline-block;
+	position: relative;
 }
 #bT_front {
   	display: block;
@@ -68,7 +69,6 @@ div{
 	stroke-width: 0px;
 	fill: transparent;
 	stroke: #05A8AA;
-	border-bottom: 5px solid black;
 	transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
 .svg-wrapper:hover .shape {
