@@ -126,8 +126,6 @@ div{
 #swf-holder {
 	position: absolute;
 	box-align: center;
-	width: 50%;
-	height: 30%;
 }
 #swf-holder object{
 	display: block;
