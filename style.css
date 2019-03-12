@@ -132,12 +132,8 @@ div{
 
 /*Swf Files*/
 #swf-holder {
-	position: absolute;
-	box-align: center;
-}
-#swf-holder object{
-	display: block;
-	width:100%;
-	height:100%;
+	position: relative;
+	margin: 0%;
+	left: -40px;
 }
 /*End Swf Files*/
