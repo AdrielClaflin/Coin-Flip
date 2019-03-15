@@ -148,6 +148,8 @@ div{
 #rachelBody {
 	background-color: #c262c9;
 	background-image: url('images/galaxy.jpg');
+	background-repeat: no-repeat;
+  	background-size:100%;
 }
 #rachelImage {
 	align: middle;
