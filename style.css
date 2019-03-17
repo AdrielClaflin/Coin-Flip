@@ -133,6 +133,78 @@ div{
 }
 /*End Styling for Adriel's Bio Page*/
 
+
+/*Styling for Alyssa's Pages*/
+#alyssaBioText1 {
+	margin: auto;
+  	width: 70%;
+	background-color: rgba(173, 216, 250, 0.7);
+	padding: 3% 5% 2% 5%;
+}
+#alyssaBioText2 {
+	
+	margin: auto;
+  	width: 90%;
+	background-color: rgba(173, 170, 250, 0.7);
+	padding: 3% 6% 5% 6%;
+}
+#alyssaBioText3 {
+	
+	margin: auto;
+  	width: 95%;
+	background-color: rgba(173, 120, 250, 0.4);
+	padding: 3% 6% 5% 6%;
+}
+#alyssaBioText4 {
+	
+	margin: auto;
+  	width: 95%;
+	background-color: rgba(173, 10, 250, 0.4);
+	padding: 3% 5% 5% 5%;
+}
+#alyssaBioText5 {
+	
+	margin: auto;
+  	width: 100%;
+	background-color: rgba(123, 250, 10, 0.4);
+	padding: 3% 3% 3% 3%;
+}
+#alyssaBioText6 {
+	
+	margin: auto;
+  	width: 100%;
+	background-color: rgba(233, 20, 120, 0.4);
+	padding: 3% 3% 3% 3%;
+}
+
+#alyssaBody1 {
+  background-color: royalblue;
+  background-image: url('images/catback.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat; 
+	align-content: center;
+}
+
+#alyssaBody2 {
+  background-color: dodgerblue;
+  background-image: url('images/birb.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat; 
+	align-content: center;
+	
+}
+#alyssaBody3 {
+	background-color: skyblue;
+  background-image: url('images/zengif.gif');
+  background-size: 100%;
+  background-repeat: no-repeat; 
+	align-content: center;
+}
+
+
+/*End Styling for Alyssa's Pages*/
+
+
 /*styling for Rachel's site*/
 #Box {
 	
