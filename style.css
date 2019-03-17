@@ -126,6 +126,12 @@ div{
   background-image: url('images/brunch_with_snab.png');
   background-size: 100%;
   background-repeat: no-repeat; 
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+#swf-holder-witch{
+	
 }
 
 #artistStatement {
@@ -219,7 +225,7 @@ div{
 
 #rachelBody {
 	background-color: #c262c9;
-	background-image: url('images/galaxy.jpg');
+	background-image: url('images/galaxy.png');
 	background-repeat: no-repeat;
   	background-size:100%;
 }
