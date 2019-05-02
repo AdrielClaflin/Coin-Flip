@@ -243,3 +243,10 @@ div{
 	left: -40px;
 }
 /*End Swf Files*/
+
+/*Styling for the app page*/
+.appText{
+	margin: auto;
+	margin-bottom: 20px;
+	width: 80%;
+}
