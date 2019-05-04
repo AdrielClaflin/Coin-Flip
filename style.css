@@ -130,6 +130,23 @@ div{
   position: sticky;
   top: 0;
 }
+
+#locationText {
+	margin: auto;
+  	width: 70%;
+	background-color: rgba(255, 250, 250, 0.6);
+	padding: 3% 5% 5% 5%;
+}
+
+#locationBody {
+  background-color:black;
+  background-image: url('images/crisis pic2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
 #swf-holder-witch{
 	
 }
